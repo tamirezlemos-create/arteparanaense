@@ -1,5 +1,9 @@
+:root{
+    --cor-fundo:rgb(194, 236, 255) ;
+    --cor-texto: black;
+}
 body {
-    background-color: rgb(247, 243, 243);
+    background-color: var(--cor-fundo)
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     margin: 0;
