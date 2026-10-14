@@ -1,17 +1,28 @@
 :root{
-    --cor-fundo:rgb(194, 236, 255) ;
-    --cor-texto: black;
+    :root{
+--cor-fundo: rgb(255, 255, 255);
+--cor-texto: black;
+--cor-principal:rgba(213, 255, 136, 0.678);
+--cor-secundaria:rgba(169, 248, 94, 0.829);
+--cor-hover: rgba(214, 255, 175, 0.788);
+--cor-superficie:white;
+--cor-card: rgba(199, 255, 194, 0.719);
+--cor-legenda:rgb(124, 124, 120);
+--cor-clara:white;
+--cor-rodape: rgba(232, 233, 232, 0.123);
+
+}
 }
 body {
-    background-color: var(--cor-fundo)
+    background-color: var(--cor-fundo);
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: rgb(203, 241, 229);
-    color: white;
+    background-color: var(--cor-fundo);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -21,7 +32,8 @@ h1 {
 }
 
 h2 {
-    color: darkcyan;
+    color: var(--cor-principal);
+
 }
 
 p {
@@ -32,9 +44,9 @@ nav{
     margin-top: 20;
 }
 nav a {
-    color:white;
+    color:var(--cor-clara);
     text-decoration: none;
-    background-color: beige;
+    background-color:  var(--cor-secundaria);
     padding:  10x 15x;
     border-radius:8px;
     margin: 5px;
@@ -42,14 +54,14 @@ nav a {
 }
 
 nav a:hover{
-    background-color: bisque;
+    background-color:  var(--cor-hover);
 }
 main {
     width: 80%;
     margin: auto;
 }
 section{
-    background-color: aliceblue;
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -64,38 +76,39 @@ img{
 figcaption{
     text-align: center;
     font-size: 14px;
-    color:black;
+    color: var(--cor-legenda);
     margin-top: 8px;
 
 }
 .card{
-    background-color: rgb(141, 202, 238);
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
+    flex:1 1 300px;
 }
 .card h3{
      margin-top: 0;
 }
 
 footer{
-    background-color: rgb(104, 222, 226);
+    background-color: var(--cor-rodape);
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 button {
-    background-color: rgb(197, 255, 197);
-    color: aliceblue;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border:none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(72, 252, 153);
+    background-color: var(--cor-hover);
 }
 .curtir {
 display: block;
