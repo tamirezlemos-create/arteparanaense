@@ -1,13 +1,13 @@
 :root{
     :root{
---cor-fundo: rgb(255, 255, 255);
+--cor-fundo: rgb(70, 255, 224);
 --cor-texto: black;
---cor-principal:rgba(213, 255, 136, 0.678);
---cor-secundaria:rgba(169, 248, 94, 0.829);
+--cor-principal:rgba(80, 244, 250, 0.678);
+--cor-secundaria:rgba(80, 189, 240, 0.829);
 --cor-hover: rgba(214, 255, 175, 0.788);
 --cor-superficie:white;
---cor-card: rgba(199, 255, 194, 0.719);
---cor-legenda:rgb(124, 124, 120);
+--cor-card: rgba(21, 57, 218, 0.719);
+--cor-legenda:rgb(215, 218, 228);
 --cor-clara:white;
 --cor-rodape: rgba(232, 233, 232, 0.123);
 
