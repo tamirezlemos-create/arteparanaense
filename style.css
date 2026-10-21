@@ -1,5 +1,5 @@
 :root{
-    :root{
+    
 --cor-fundo: rgb(70, 255, 224);
 --cor-texto: black;
 --cor-principal:rgba(80, 244, 250, 0.678);
@@ -12,7 +12,7 @@
 --cor-rodape: rgba(232, 233, 232, 0.123);
 
 }
-}
+
 body {
     background-color: var(--cor-fundo);
     color: rgb(0, 0, 0);
