@@ -10,9 +10,14 @@
 --cor-legenda:rgb(215, 218, 228);
 --cor-clara:white;
 --cor-rodape: rgba(232, 233, 232, 0.123);
-
 }
-
+.btn-tema{
+ --cor-fundo:#121212;
+ --cor-texto:#f5f5f5;
+ --cor-principal:rgb(127, 255, 116);
+ --cor-superficie:#lelele;
+ --cor-card:#2b2530;
+}
 body {
     background-color: var(--cor-fundo);
     color: rgb(0, 0, 0);
